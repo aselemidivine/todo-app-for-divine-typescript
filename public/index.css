@@ -1,14 +1,70 @@
-#img {
-  display: block;
-  margin: auto;
-  height: 128px;
-  width: 128px;
-  padding: 2rem;
-}
+ * {
+    margin: 0;
+    padding: 0;
+    top: auto;
+ }
 
-#canvas {
-  display: block;
-  margin: 2rem auto;
-  width: 540px;
-  height: 540px;
-}
+ .todo-list {
+    display: flex;
+    align-items: center;
+    color: cornflowerblue;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 25px;
+    margin-left: 15rem;
+ }
+ #new-task-form {
+    display: flex;
+    margin-left: 10rem;
+    /* position: absolute; */
+    align-items: center;
+    text-align: center;
+    height: 0px;
+    width: 800px;
+ }
+
+ #list {
+    list-style: none;
+    /* padding: 3rem; */
+    margin: 3rem;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 7rem;
+    margin-left: 22rem;
+ }
+
+ #new-task-title {
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    height: 3rem;
+    width: 800px;
+    /* border: blue; */
+    border-radius: 6px 0 0 6px;
+    font-size: large;
+ }
+
+ #new-task-title placeholder {
+    margin-left: 2rem;
+ }
+
+ .btn-1 {
+    font-size: 22px;
+    color: #333;
+    background-color: blueviolet;
+    /* padding: 10px; */
+    margin-top: 10rem;
+    /* margin-left: 10rem; */
+    height: 3.2rem;
+    width: 100px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+ }
+
+ .btn-1:hover {
+    opacity: 0.8;
+    color: #fff;
+    background-color: coral;
+    transition: 1s ease-in-out;
+ } 
